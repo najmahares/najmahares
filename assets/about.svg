@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#ff006e" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" rx="20" fill="#0a0a0a" />
+  <rect x="2" y="2" width="796" height="396" rx="18" fill="none" stroke="#1a0b2e" stroke-width="2" />
+
+  <!-- Star Logo -->
+  <g transform="translate(400, 70)">
+    <path d="M0 -30 L10 -10 L30 0 L10 10 L0 30 L-10 10 L-30 0 L-10 -10 Z" fill="url(#starGrad)" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Text -->
+  <text x="400" y="150" font-family="'Fredoka One', 'Comic Sans MS', sans-serif" font-size="48" fill="#00f5d4" text-anchor="middle" font-weight="bold">Hi, I'm Najma.</text>
+  
+  <text x="400" y="200" font-family="'Space Grotesk', sans-serif" font-size="16" fill="#d1d1d1" text-anchor="middle">
+    <tspan x="400" dy="0">I turn real problems into working products. My sweet spot is building</tspan>
+    <tspan x="400" dy="25">AI/ML systems, full-stack applications, and secure backends.</tspan>
+    <tspan x="400" dy="25">I explore product design, UX, software testing, and app security</tspan>
+    <tspan x="400" dy="25">to understand the whole system—from the problem to the details.</tspan>
+  </text>
+
+  <!-- Social Links -->
+  <a href="https://najma-hares-portfolio.netlify.app/">
+    <rect x="220" y="330" width="100" height="30" rx="5" fill="#1a0b2e" stroke="#00f5d4" stroke-width="1"/>
+    <text x="270" y="350" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00f5d4" text-anchor="middle" font-weight="bold">PORTFOLIO</text>
+  </a>
+  
+  <a href="https://linkedin.com/in/najma-hares">
+    <rect x="340" y="330" width="100" height="30" rx="5" fill="#1a0b2e" stroke="#9d4edd" stroke-width="1"/>
+    <text x="390" y="350" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#9d4edd" text-anchor="middle" font-weight="bold">LINKEDIN</text>
+  </a>
+
+  <a href="mailto:haresnajma@gmail.com">
+    <rect x="460" y="330" width="100" height="30" rx="5" fill="#1a0b2e" stroke="#ff006e" stroke-width="1"/>
+    <text x="510" y="350" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#ff006e" text-anchor="middle" font-weight="bold">EMAIL</text>
+  </a>
+</svg>
