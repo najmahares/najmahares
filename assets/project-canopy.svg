@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150">
+  <rect width="800" height="150" rx="15" fill="#0a0a0a" />
+  <rect x="2" y="2" width="796" height="146" rx="13" fill="none" stroke="#1a0b2e" stroke-width="2" />
+  
+  <a href="https://soleneinformational-website.vercel.app/">
+    <text x="30" y="45" font-family="'Fredoka One', sans-serif" font-size="24" fill="#ff006e" font-weight="bold">Canopy ↗</text>
+  </a>
+
+  <text x="30" y="80" font-family="'Space Grotesk', sans-serif" font-size="14" fill="#d1d1d1">A conservation health-intelligence project supporting gorilla health case continuity.</text>
+
+  <text x="30" y="115" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#9d4edd" font-weight="bold">AI</text>
+  <text x="70" y="115" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#9d4edd" font-weight="bold">Health workflows</text>
+</svg>
