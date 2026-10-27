@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150">
+  <rect width="800" height="150" rx="15" fill="#0a0a0a" />
+  <rect x="2" y="2" width="796" height="146" rx="13" fill="none" stroke="#1a0b2e" stroke-width="2" />
+  
+  <a href="https://tos-risk-agreement-scanner.vercel.app/">
+    <text x="30" y="45" font-family="'Fredoka One', sans-serif" font-size="24" fill="#00f5d4" font-weight="bold">Agreement Risk Scanner ↗</text>
+  </a>
+
+  <text x="30" y="80" font-family="'Space Grotesk', sans-serif" font-size="14" fill="#d1d1d1">An NLP classifier that identifies risk categories in terms-of-service clauses.</text>
+
+  <text x="30" y="115" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#ff006e" font-weight="bold">TF-IDF</text>
+  <text x="90" y="115" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#ff006e" font-weight="bold">Linear SVM</text>
+  <text x="180" y="115" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#ff006e" font-weight="bold">FastAPI</text>
+</svg>
